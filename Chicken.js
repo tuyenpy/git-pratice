@@ -1,6 +1,5 @@
-function Chicken(name, age) {
-  this.name = name;
-  this.age = age;
+function Chicken(name, age, des) {
+    this.des = des;
 }
 
 module.export = Chicken;
